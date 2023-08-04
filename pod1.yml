@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: tmp-pod1
+  labels:
+    app: enginx
+spec:
+  containers:
+    - name: nginx-cont
+      image: nginx:latest
+      ports:
+        - containerPort: 80

@@ -1,0 +1,8 @@
+#authentication configuration
+#
+auth:
+  database: accounts
+  username: root
+  rootPassword: root@123
+  
+
